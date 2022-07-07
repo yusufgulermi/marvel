@@ -1,0 +1,91 @@
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+}
+.content{
+
+    border: 1px solid #999999;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #999999;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.content:hover{
+    color: white;
+    background-color: #1976D2;
+}
+.cursor{
+    cursor: pointer;
+}
+.img{
+width: 300px;
+height: 300px;
+}
+.img-comics{
+    width: 80%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.container-card{
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.content-card{
+    min-width: 650px;
+    text-align: justify;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-card{
+    width: 40%;
+    height: 100%;
+}
+.text-card{
+    width: 40%;
+    height: 90%;
+}
+.text{
+    align-items: center;
+    margin-bottom: 10px;
+}
+.content-comics
+{
+    border: 1px solid #999999;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #999999;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.loading{
+    position: fixed;
+}
