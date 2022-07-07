@@ -53,7 +53,7 @@ const CharacterDetails = () => {
           }
         </div>
 
-        <Link to="/">
+        <Link to="/marvel">
           <Button variant='contained'>HOME PAGE</Button>
         </Link>
       </div>
